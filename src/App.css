@@ -1,0 +1,5 @@
+:root {
+    background-color: var(--primary-color);
+    color: var(--primary-font-color);
+    font-family: Nunito, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
