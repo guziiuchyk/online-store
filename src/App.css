@@ -1,5 +1,47 @@
 :root {
-    background-color: var(--primary-color);
-    color: var(--primary-font-color);
-    font-family: Nunito, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#root{
+    padding: 48px 96px;
+}
+
+.heading1{
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.heading2{
+    font-size: 26px;
+    line-height: 35px;
+}
+
+.heading3{
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.heading4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.heading5{
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.body-large{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.body-medium{
+    font-size: 14px;
+}
+
+.body-small{
+    font-size: 12px;
+    line-height: 20px;
 }

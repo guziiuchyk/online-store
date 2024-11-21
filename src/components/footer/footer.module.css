@@ -1,9 +1,50 @@
 .footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    border-top: 1px solid var(--gray);
+    margin-top: 100px;
 }
 
-.bold{
-    font-weight: 700;
+.hero_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a{
+    margin-right: 41px;
+    color: var(--dark-gray);
+}
+
+.nav a:hover{
+    color: black;
+}
+
+.input_wrapper{
+    border-bottom: 1px solid black;
+}
+
+.button{
+    font-size: 30px;
+    color: var(--dark-gray);
+}
+
+.button:hover{
+    color: black;
+}
+
+.input{
+    width: 300px;
+    padding: 5px;
+}
+
+.bottom_section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm_links a{
+    margin-left: 30px;
+}
+
+.sm_links a:hover{
+    filter: brightness(0.5)
 }
