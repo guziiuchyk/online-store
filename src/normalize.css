@@ -34,3 +34,7 @@ input {
     box-shadow: none;
     appearance: none;
 }
+
+p, ul, ol {
+    margin: 0;
+}

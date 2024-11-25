@@ -1,0 +1,16 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.desc{
+    text-align: center;
+    margin: 15px 0;
+    color: var(--dark-gray);
+}
+
+.button_wrapper{
+    margin-top: 20px;
+}
