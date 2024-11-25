@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./header.module.css"
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import searchIcon from "../../assets/search-icon.svg"
 import cartIcon from "../../assets/cart-icon.svg"
 import accountIcon from "../../assets/account-icon.svg"
@@ -8,7 +8,7 @@ const Header: React.FC = () => {
 
     return (
         <header className={styles.wrapper}>
-            <div className={styles.logo}><span className={styles.gold}>S</span>HOPPE</div>
+            <Link to={"/"} className={styles.logo}><span className={styles.gold}>S</span>HOPPE</Link>
             <nav className={styles.nav}>
                 <NavLink className={`${styles.text_link} heading5`} to={"/"}>Shop</NavLink>
                 <NavLink className={`${styles.text_link} heading5`} to={"/blog"}>Blog</NavLink>
