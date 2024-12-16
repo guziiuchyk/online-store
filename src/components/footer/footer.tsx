@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                 <div className={styles.nav}>
                     <Link className="heading5" to={"/contact"}>CONTACT</Link>
                     <Link className="heading5" to={"/terms-of-services"}>TERMS OF SERVICES</Link>
-                    <Link className="heading5" to={"/shipping-and-returns    "}>SHIPPING AND RETURNS</Link>
+                    <Link className="heading5" to={"/shipping-and-returns"}>SHIPPING AND RETURNS</Link>
                 </div>
                 <div className={styles.input_wrapper}>
                     <input className={styles.input} placeholder="Give am email, get the newsletter." type="text"/>

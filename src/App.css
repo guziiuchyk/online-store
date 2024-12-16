@@ -37,7 +37,7 @@ body {
 }
 
 .heading5{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 27px;
 }
 
@@ -56,9 +56,16 @@ body {
 }
 
 .button-black{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 230px;
     border-radius: 4px;
     border: 1px solid #000;
-    padding: 12px 40px;
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.1s;
 }
 
 .button-black:hover{
@@ -78,4 +85,18 @@ body {
 .button-white:hover{
     background-color: #000;
     color: #fff;
+}
+
+.light_gray{
+    color: var(--dark-gray);
+}
+
+.gold{
+    color: #A18A68;
+}
+
+@media screen and (max-width: 848px) {
+    #root {
+        padding: 16px;
+    }
 }

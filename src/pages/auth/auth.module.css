@@ -1,0 +1,55 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.buttonGroup {
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.button_wrapper{
+    background-color: var(--light-gray);
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.button {
+    position: relative;
+    flex: 1;
+    padding: 10px 50px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 2;
+}
+
+.button.active {
+
+}
+
+.highlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: #ffffff;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.highlight.login {
+    transform: translateX(0%);
+}
+
+.highlight.register {
+    transform: translateX(100%);
+}

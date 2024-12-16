@@ -1,0 +1,29 @@
+.wrapper{
+    position: relative;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.input{
+    border-bottom: 1px solid black;
+    font-size: 18px;
+}
+
+.clear{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.clear:hover{
+    filter: brightness(0.8)
+}
+
+.error{
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    color: var(--error);
+    font-size: 12px;
+}

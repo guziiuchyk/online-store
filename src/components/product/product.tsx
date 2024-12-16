@@ -1,9 +1,11 @@
 import styles from "./product.module.css"
 import React from "react";
+import {Link} from "react-router-dom";
 
 const Product:React.FC = () => {
+
     return (
-        <div className={styles.wrapper}>
+        <Link to={"/products/34"} className={styles.wrapper}>
             <div className={styles.product}>
                 <div className={styles.image_wrapper}>
                     <img className={styles.image}
@@ -14,7 +16,7 @@ const Product:React.FC = () => {
                 <div className={styles.name}>Lorem ipsum dolor.</div>
                 <div className={styles.price}>354$</div>
             </div>
-        </div>
+        </Link>
     )
 }
 

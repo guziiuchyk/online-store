@@ -1,0 +1,20 @@
+.title{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.empty_cart_wrapper{
+    margin-top: 30px;
+}
+
+.description{
+    text-align: center;
+}
+
+.store_button{
+    margin: 10px auto;
+}
+
+.buy_button{
+    margin: 20px auto;
+}
