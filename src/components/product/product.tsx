@@ -13,8 +13,8 @@ const Product:React.FC = () => {
                          alt=""/>
                     <button className={`${styles.image_button} body-large`}>ADD TO CART</button>
                 </div>
-                <div className={styles.name}>Lorem ipsum dolor.</div>
-                <div className={styles.price}>354$</div>
+                <div className={`heading3 ${styles.name}`}>Lorem ipsum dolor.</div>
+                <div className={`heading4 ${styles.price}`}>354$</div>
             </div>
         </Link>
     )

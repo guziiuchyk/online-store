@@ -1,6 +1,7 @@
 .wrapper{
     display: flex;
     justify-content: space-between;
+    user-select: none;
     border-bottom: 1px solid var(--gray);
 }
 
